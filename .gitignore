@@ -1,2 +1,28 @@
+# Données lourdes
 Data/
-Data/
+
+# Environnements Python
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.pytest_cache/
+
+# Node
+**/node_modules/
+**/dist/
+
+# Modèles lourds
+**/modele_sauvegarde/*.keras
+**/modele_sauvegarde/*.joblib
+
+# Bases de données
+**/*.db
+
+# macOS
+**/.DS_Store
+
+# CSV de test
+**/test_reel.csv
+**/test_logs.csv

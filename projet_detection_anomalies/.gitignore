@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# Modèle (trop lourd pour GitHub)
+modele_sauvegarde/
+
+# Données
+data/*.csv
+test_reel.csv
+test_logs.csv

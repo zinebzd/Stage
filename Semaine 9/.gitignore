@@ -1,0 +1,38 @@
+#fichier de configuration pour Git
+
+
+
+# Python
+__pycache__/ #crée automatiquement ce dossier avec des fichiers .pyc 
+*.py[cod] #Ignore tous les fichiers qui finissent par .pyc, .pyo ou .pyd
+*.so #Fichiers compilés sur Linux/Mac
+
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Modèle entraîné (fichiers lourds — ne pas versionner)
+modele_sauvegarde/
+*.keras
+*.joblib
+*.pkl
+
+# Base de données SQLite (données de production)
+*.db
+*.sqlite
+
+# Données brutes (souvent volumineuses)
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
